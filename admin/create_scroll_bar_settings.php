@@ -72,7 +72,7 @@ class scrollbarCreation{
         <div class="wrap">
             <div class="ntTopBar">
                 <div class="ntTopBar_left">
-                    <h1 class="nt_plugin_name">Ntamas Plugins</h1>
+                    <h3 class="nt_plugin_name">Ntamas Plugins</h3>
                 </div>
                 <div class="ntTopBar_right">
                     <div><a href="https://www.facebook.com/ntamas.manolis"><i class="fa-brands fa-facebook-f"></i></a></div>
@@ -80,6 +80,7 @@ class scrollbarCreation{
                 </div>
             </div>
             <div class="ntBody">
+                <h1></h1>
                 <form action="options.php" method="POST">
                     <?php
                         settings_fields('scrollbaroptions');
