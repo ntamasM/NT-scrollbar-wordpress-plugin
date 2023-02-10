@@ -1,11 +1,11 @@
 <?php
 /**
 * Plugin Name: NT scrollbar plugin
-* Plugin URI: https://www.facebook.com/ntamas.manolis/
+* Plugin URI: https://github.com/ntamasM/NT-scrollbar-wordpress-plugin
 * Description: Create beautiful scroll bar for your site.
 * Version: 0.0.1
 * Author: Ntamas
-* Author URI: https://www.facebook.com/ntamas.manolis/
+* Author URI: https://github.com/ntamasM
 **/
 
 require_once plugin_dir_path( __FILE__ ) . 'admin/create_scroll_bar_settings.php';
