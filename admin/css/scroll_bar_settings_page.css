@@ -1,0 +1,62 @@
+/*ntamas css*/
+
+/*START TOP BAR*/
+.settings_page_scrollbar-settings-page #wpcontent{
+    padding:0px!important;
+}
+
+.settings_page_scrollbar-settings-page .wrap{
+    padding:0px!important;
+    margin:0px!important;
+}
+
+.ntTopBar{
+    display: flex;
+    background: linear-gradient(90deg, rgba(97,0,0,1) 0%, rgba(0,0,125,1) 100%);
+    padding:20px 0px;
+}
+
+.nt_plugin_name{
+    padding:0px!important;
+    color:white!important;
+    align-items: center;
+}
+
+.ntTopBar_left,.ntTopBar_right{
+    width:50%;
+}
+
+.ntTopBar_left,.ntTopBar_right div{
+    padding-left: 20px;
+}
+
+.ntTopBar_right{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.ntTopBar_right div i{
+    font-size:30px;
+}
+
+.ntTopBar_right div a{
+    color:white!important;
+}
+
+.ntTopBar_right div a:hover{
+    color:#ccf6ff!important;
+}
+/*END TOP BAR*/
+
+/*START STTINGS*/
+
+.ntBody{
+    padding: 30px;
+    margin: 35px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 11px 1px rgb(0 0 0 / 53%);
+    -webkit-box-shadow: -5px 5px 11px 1px rgb(0 0 0 / 53%);
+    -moz-box-shadow: -5px 5px 11px 1px rgba(0,0,0,0.53);
+}
