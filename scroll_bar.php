@@ -8,26 +8,19 @@
 * Author URI: https://github.com/ntamasM
 **/
 
+
 /**
  * Font Awesome Kit Setup
  * 
  * This will add your Font Awesome Kit to the front-end, the admin back-end,
  * and the login screen area.
  */
-if (! function_exists('fa_custom_setup_kit') ) {
-  function fa_custom_setup_kit($kit_url = '') {
-    foreach ( [ 'wp_enqueue_scripts', 'admin_enqueue_scripts', 'login_enqueue_scripts' ] as $action ) {
-      add_action(
-        $action,
-        function () use ( $kit_url ) {
-          wp_enqueue_script( 'font-awesome-kit', $kit_url, [], null );
-        }
-      );
-    }
-  }
-}
-
-fa_custom_setup_kit('https://kit.fontawesome.com/698bae23c6.js');
+add_action( 'admin_enqueue_scripts', function ( $hook ) {
+	if ( 'settings_page_scrollbar-settings-page' !== $hook ) {
+		return;
+	}
+	wp_enqueue_script( 'font-awesome-kit', 'https://kit.fontawesome.com/698bae23c6.js');
+} );
 
 require_once plugin_dir_path( __FILE__ ) . 'admin/create_scroll_bar_settings.php';
 require_once plugin_dir_path( __FILE__ ) . 'public/export_scroll_bar_settings.php';
