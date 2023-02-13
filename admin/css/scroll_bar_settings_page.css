@@ -2,12 +2,12 @@
 
 /*START BODY*/
 
-#wpbody{
+.settings_page_scrollbar-settings-page #wpbody{
     background: linear-gradient(90deg, #C04848 0%, #480048 100%)!important;
 }
 
 
-.ntBody{
+.settings_page_scrollbar-settings-page .ntBody{
     background:white!important;
 }
 
@@ -65,7 +65,7 @@
 
 /*START SETTINGS*/
 
-.ntBody{
+.settings_page_scrollbar-settings-page .ntBody{
     padding: 30px;
     margin: 35px;
     border-radius: 20px;
@@ -74,11 +74,11 @@
     -moz-box-shadow: -5px 5px 11px 1px rgba(0,0,0,0.53);
 }
 
-#setting-error-settings_updated{
+.settings_page_scrollbar-settings-page #setting-error-settings_updated{
     display:none!important;
 }
 
-.ntBody #setting-error-settings_updated{
+.settings_page_scrollbar-settings-page .ntBody #setting-error-settings_updated{
     display:block!important;
 }
 
@@ -86,16 +86,16 @@
 
 /*START ADMIN FOOTER*/
 
-#wpfooter{
+.settings_page_scrollbar-settings-page #wpfooter{
     color:white!important;
 }
 
-#wpfooter a {
+.settings_page_scrollbar-settings-page #wpfooter a {
     color: black!important;
     font-weight: 700;
 }
 
-#wpfooter a:hover {
+.settings_page_scrollbar-settings-page #wpfooter a:hover {
     color: white!important;
     font-weight: 700;
 }
