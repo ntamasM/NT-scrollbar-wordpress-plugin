@@ -1,5 +1,18 @@
 /*ntamas css*/
 
+/*START BODY*/
+
+#wpbody{
+    background: linear-gradient(90deg, #C04848 0%, #480048 100%)!important;
+}
+
+
+.ntBody{
+    background:white!important;
+}
+
+/*END BODY*/
+
 /*START TOP BAR*/
 .settings_page_scrollbar-settings-page #wpcontent{
     padding:0px!important;
@@ -12,7 +25,7 @@
 
 .ntTopBar{
     display: flex;
-    background: linear-gradient(90deg, rgba(97,0,0,1) 0%, rgba(0,0,125,1) 100%);
+    background: linear-gradient(90deg, #C04848 0%, #480048 100%);
     padding:20px 0px;
 }
 
@@ -70,3 +83,21 @@
 }
 
 /*END SETTINGS*/
+
+/*START ADMIN FOOTER*/
+
+#wpfooter{
+    color:white!important;
+}
+
+#wpfooter a {
+    color: black!important;
+    font-weight: 700;
+}
+
+#wpfooter a:hover {
+    color: white!important;
+    font-weight: 700;
+}
+
+/*END ADMIN FOOTER*/
