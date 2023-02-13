@@ -10,16 +10,20 @@
 
 
 /**
- * Font Awesome Kit Setup
- * 
- * This will add your Font Awesome Kit to the front-end, the admin back-end,
- * and the login screen area.
+ * This will add your Font Awesome Kit to admin back-end,
+ * and change footer text.
  */
 add_action( 'admin_enqueue_scripts', function ( $hook ) {
 	if ( 'settings_page_scrollbar-settings-page' !== $hook ) {
 		return;
 	}
 	wp_enqueue_script( 'font-awesome-kit', 'https://kit.fontawesome.com/698bae23c6.js');
+	add_filter('admin_footer_text',function ( $footer_text ) {
+            // Edit the line below to customize the footer text.
+            $footer_text = 'Powered by <a href="https://github.com/ntamasM" target="_blank" rel="noopener">Ntamas</a>';
+            return $footer_text;
+        }
+    );
 } );
 
 require_once plugin_dir_path( __FILE__ ) . 'admin/create_scroll_bar_settings.php';
