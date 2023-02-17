@@ -1,18 +1,5 @@
 /*ntamas css*/
 
-/*START BODY*/
-
-.settings_page_scrollbar-settings-page #wpbody{
-    background: linear-gradient(90deg, #C04848 0%, #480048 100%)!important;
-}
-
-
-.settings_page_scrollbar-settings-page .ntBody{
-    background:white!important;
-}
-
-/*END BODY*/
-
 /*START TOP BAR*/
 .settings_page_scrollbar-settings-page #wpcontent{
     padding:0px!important;
@@ -25,7 +12,6 @@
 
 .ntTopBar{
     display: flex;
-    background: linear-gradient(90deg, #C04848 0%, #480048 100%);
     padding:20px 0px;
 }
 
@@ -63,7 +49,81 @@
 }
 /*END TOP BAR*/
 
+/*START BODY*/
+
+.settings_page_scrollbar-settings-page #wpwrap{
+    background: linear-gradient(90deg, #C04848 0%, #480048 100%)!important;
+}
+
+.settings_page_scrollbar-settings-page .ntBody{
+    background:#ffffff26!important;
+    color: white!important;
+}
+.settings_page_scrollbar-settings-page .wpdeveloper-review-notice{
+    display:none;
+}
+
+.settings_page_scrollbar-settings-page .ntBody h2,.settings_page_scrollbar-settings-page .ntBody th{
+    color: white!important;
+}
+
+/*END BODY*/
+
 /*START SETTINGS*/
+
+
+.settings_page_scrollbar-settings-page .ntBody input[type=color], 
+.settings_page_scrollbar-settings-page .ntBody input[type=date], 
+.settings_page_scrollbar-settings-page .ntBody input[type=datetime-local], 
+.settings_page_scrollbar-settings-page .ntBody input[type=datetime], 
+.settings_page_scrollbar-settings-page .ntBody input[type=email], 
+.settings_page_scrollbar-settings-page .ntBody input[type=month], 
+.settings_page_scrollbar-settings-page .ntBody input[type=number], 
+.settings_page_scrollbar-settings-page .ntBody input[type=password], 
+.settings_page_scrollbar-settings-page .ntBody input[type=search], 
+.settings_page_scrollbar-settings-page .ntBody input[type=tel], 
+.settings_page_scrollbar-settings-page .ntBody input[type=text], 
+.settings_page_scrollbar-settings-page .ntBody input[type=time], 
+.settings_page_scrollbar-settings-page .ntBody input[type=url], 
+.settings_page_scrollbar-settings-page .ntBody input[type=week], 
+.settings_page_scrollbar-settings-page .ntBody select, 
+.settings_page_scrollbar-settings-page .ntBody textarea{
+    background-color: #ffffff1a!important;
+    color: #ffffff!important;
+}
+
+.settings_page_scrollbar-settings-page .ntBody input[type=color]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=date]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=datetime-local]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=datetime]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=email]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=month]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=number]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=password]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=search]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=tel]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=text]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=time]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=url]:focus, 
+.settings_page_scrollbar-settings-page .ntBody input[type=week]:focus, 
+.settings_page_scrollbar-settings-page .ntBody select:focus, 
+.settings_page_scrollbar-settings-page .ntBody textarea:focus{
+    border-color: #4eab90;
+    box-shadow: 0 0 0 1px #4eab90;
+    outline: 2px solid transparent;
+}
+
+.settings_page_scrollbar-settings-page .ntBody .button-primary{
+    background: #ffffff1a!important;
+    border-color: #ffffff!important;
+    color: #fff!important;
+}
+
+.settings_page_scrollbar-settings-page .ntBody .button-primary:hover {
+    background: #4eab90!important;
+    border-color: #000000!important;
+    color: #000!important;
+}
 
 .settings_page_scrollbar-settings-page .ntBody{
     padding: 30px;
@@ -82,6 +142,24 @@
     display:block!important;
 }
 
+.settings_page_scrollbar-settings-page .notice, .settings_page_scrollbar-settings-page div.updated {
+    background: #57dbb445!important;
+    border: 1px solid #4eab90!important;
+    border-left-width: 4px!important;
+    border-radius: 6px!important;
+}
+
+.settings_page_scrollbar-settings-page div.error{
+    background: #ab0000f0!important;
+    border: 1px solid #000000!important;
+    border-left-width: 4px!important;
+    border-radius: 6px!important;
+}
+
+.settings_page_scrollbar-settings-page .notice-dismiss:before{
+    color: #000000!important;
+    font-size: 20px!important;
+}
 /*END SETTINGS*/
 
 /*START ADMIN FOOTER*/
