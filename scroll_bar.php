@@ -8,7 +8,6 @@
 * Author URI: https://github.com/ntamasM
 **/
 
-
 /**
  * This will add your Font Awesome Kit to admin back-end,
  * and change footer text.
