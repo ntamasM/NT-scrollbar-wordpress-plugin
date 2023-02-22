@@ -3,7 +3,7 @@
 * Plugin Name: NT scrollbar plugin
 * Plugin URI: https://github.com/ntamasM/NT-scrollbar-wordpress-plugin
 * Description: Create beautiful scroll bar for your site.
-* Version: 0.0.2
+* Version: 0.0.3
 * Author: Ntamas
 * Author URI: https://github.com/ntamasM
 **/
