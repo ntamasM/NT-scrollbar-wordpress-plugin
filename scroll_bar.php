@@ -36,4 +36,4 @@ function load_admin_styles() {
 
 $scrollbarCreation = new scrollbarCreation();
 
-add_action('wp_enqueue_scripts', 'add_my_style_to_front_end');
+add_action('wp_head', 'add_my_style_to_front_end');
